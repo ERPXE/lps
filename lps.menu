@@ -1,0 +1,8 @@
+LABEL LPS
+MENU LABEL ^Lightweight Portable Security 1.3.1
+KERNEL er/plugins/lps/vmlinuz
+INITRD er/plugins/lps/initrd
+APPEND load_ramdisk=1 ramdisk_blocksize=4096 root=/dev/ram0 ramdisk_size=524288 console=ttyS3 splash=silent vga=791
+TEXT HELP
+				 Lightweight Portable Security 1.3.1.
+ENDTEXT
